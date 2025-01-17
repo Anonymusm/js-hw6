@@ -1,14 +1,21 @@
 // 1
-let number = 1;
-while (number < 10)
-    console.log(number)
-// 2
-for (let i = 2; i <= 20; i = i + 1) {
-  if (i % 2 !== 0) {
-    continue;
-  }
-  console.log(i);
+let number = 1; 
+
+while (number < 10) { 
+  console.log(number); 
+  number++; 
 }
+
+// 2
+for (let i = 2; i <= 20; i = i + 1) { 
+  if (i % 2 !== 0) {
+    continue; 
+  }
+  
+  let result = 7 * i; 
+  console.log(`7 * ${i} = ${result}`); 
+}
+
 // 3
 for (let i = 1; i <= 10; i += 1) {
   console.log(7 * i);
